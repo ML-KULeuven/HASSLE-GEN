@@ -1,0 +1,16 @@
+for i in {1..15}; do
+	python3 -m synthetic --function generate --num_vars 16 --num_hard 16 --num_soft 12  --model_seeds $i --num_context 100 --context_seeds $((i+10)) --num_pos 2 --num_neg 2 --neg_type both --method walk_sat --cutoff 15 --noise 0 --conjunctive_contexts 1 --use_new_generation_method 1
+done
+
+for i in {16..30}; do
+	python3 -m synthetic --function generate --num_vars 16 --num_hard 16 --num_soft 16  --model_seeds $i --num_context 100 --context_seeds $((i+10)) --num_pos 2 --num_neg 2 --neg_type both --method walk_sat --cutoff 15 --noise 0 --conjunctive_contexts 1 --use_new_generation_method 1
+done
+
+for i in {31..45}; do
+	python3 -m synthetic --function generate --num_vars 16 --num_hard 16 --num_soft 20  --model_seeds $i --num_context 100 --context_seeds $((i+10)) --num_pos 2 --num_neg 2 --neg_type both --method walk_sat --cutoff 15 --noise 0 --conjunctive_contexts 1 --use_new_generation_method 1
+done
+
+for i in {46..60}; do
+	python3 -m synthetic --function generate --num_vars 16 --num_hard 16 --num_soft 24  --model_seeds $i --num_context 100 --context_seeds $((i+10)) --num_pos 2 --num_neg 2 --neg_type both --method walk_sat --cutoff 15 --noise 0 --conjunctive_contexts 1 --use_new_generation_method 1
+done
+

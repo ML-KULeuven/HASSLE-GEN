@@ -1,0 +1,9 @@
+matplotlib==3.5.0
+numpy==1.21.4
+pandas==1.3.4
+pyddlib==0.2.1
+pysat==3.0.1
+python_sat==0.1.7.dev15
+scipy==1.7.3
+seaborn==0.11.2
+tqdm==4.62.3
