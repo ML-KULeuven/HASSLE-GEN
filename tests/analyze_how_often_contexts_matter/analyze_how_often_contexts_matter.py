@@ -1,8 +1,8 @@
 import pickle
 import numpy as np
 from os import listdir, path
-from hassle.pysat_solver import get_value, solve_weighted_max_sat
-from hassle.type_def import MaxSatModel, Clause, Instance, Context
+from hassle_sls.pysat_solver import get_value, solve_weighted_max_sat
+from hassle_sls.type_def import MaxSatModel, Clause, Instance, Context
 import auxiliary
 import genetic
 import re

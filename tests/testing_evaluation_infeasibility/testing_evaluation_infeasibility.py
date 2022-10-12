@@ -5,7 +5,7 @@ import numpy as np
 import re
 from auxiliary import to_phenotype, MaxSAT_to_genotype
 from evaluation import evaluate_use_infeasibility, evaluate_knowledge_compilation_based_dispatch
-from hassle.local_search import random_model
+from hassle_sls.local_search import random_model
 
 
 def make_individual(n, k):
